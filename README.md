@@ -1,7 +1,8 @@
-Overview
+#Overview
+
 This project focuses on using the Llama-3 and Llama-2 models for various tasks related to the MedQA dataset. It explores Retrieval-Augmented Generation (RAG) strategies to enhance performance in medical question answering by integrating external data sources such as PubMed and Wikipedia. The project also investigates the impact of domain-specific models and context summarization techniques. Below is a detailed description of each file used in the project.
 
-File Descriptions
+#File Descriptions
 1. Llama3_MedQA_Classification.ipynb
 Purpose: Classifies the medical categories of questions in the MedQA dataset.
 Description: This notebook processes the MedQA dataset, categorizes the questions into various medical fields (e.g., cardiovascular, gastrointestinal), and evaluates the model's performance based on these classifications.
@@ -44,13 +45,15 @@ Description: This notebook is responsible for scraping and extracting Wikipedia 
 14. llama3-with-langchain.ipynb
 Purpose: Initial exploration of Llama models' baseline performance in a Kaggle environment.
 Description: This was the first file created to test Llama model performance on the MedQA dataset using a basic setup in Kaggle before advancing to more complex RAG implementations.
-Getting Started
+
+#Getting Started
+
 To run the notebooks:
 
 Install dependencies: Ensure that all required Python packages are installed (e.g., transformers, FAISS, PyTorch).
 Set up data sources: Prepare your MedQA dataset and any external data sources (e.g., PubMed, Wikipedia) for use in the retrieval pipeline.
 Execute the notebooks: Open the notebooks in a Jupyter environment and follow the steps provided in each file.
-Contributions
+#Contributions
 This project explores various methods to improve medical question answering through retrieval-augmented generation, leveraging external knowledge from PubMed and Wikipedia, and experimenting with domain-specific models.
 
-Feel free to explore the notebooks, adjust parameters, and contribute to further optimizing the RAG pipeline for medical question answering tasks.
+Feel free to explore the notebooks, adjust parameters, and contribute to further optimizing the RAG pipeline for medical question-answering tasks.
